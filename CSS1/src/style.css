@@ -1,4 +1,23 @@
 body {
-  background-color: #a3a3a3;
+  background-color: #9f5858;
 }
 
+.container {
+  display: flex;
+  border: solid green ;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+p {
+ 
+  border: 5px solid yellow;
+  border-radius: 5px;
+  border-style: dotted;
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  padding: 30px;
+  font-size: 3em;
+  
+}
